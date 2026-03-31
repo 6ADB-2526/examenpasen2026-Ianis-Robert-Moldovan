@@ -10,12 +10,12 @@ interface Props {
 export default function UserList({ Users, registeredUsers }: Props) {
   return (
     <>
-      {/* <h1>Users</h1>
+      <h1>Users</h1>
       <ul>
-        {registeredUsers.map((user: string, index: number) => (
+        {registeredUsers.map((User: string, index: number) => (
           <li key={index}>{user}</li>
         ))}
-      </ul> */}
+      </ul>
     </>
   );
 }
