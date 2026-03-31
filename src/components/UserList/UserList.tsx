@@ -3,20 +3,19 @@
 import "./UserList.css";
 
 interface Props {
-  users: string;
-  registeredUser: string;
+  Users: string;
+  registeredUsers: string;
 }
 
-export default function UserList({ users, registeredUsers }: Props) {
-  const GeregistreerdePersonen = ["Karel", "Els", "Piet"];
+export default function UserList({ Users, registeredUsers }: Props) {
   return (
     <>
-      <h1>Users</h1>
+      {/* <h1>Users</h1>
       <ul>
-        {GeregistreerdePersonen.map((user, index) => (
+        {registeredUsers.map((user: string, index: number) => (
           <li key={index}>{user}</li>
         ))}
-      </ul>
+      </ul> */}
     </>
   );
 }
